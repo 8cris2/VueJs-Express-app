@@ -1,21 +1,23 @@
 # VueJs-Express-app
 Simple Vuejs app to read and write to server
 
-# Build Setup
+If don't have nodeJs installed: download and install from here: https://nodejs.org/en/
 
-CD into server folder
+# CD into server folder
 
-# Install dependencies
+*Install dependencies*
+
 npm install
 
 npm start
 
-# Server run on localhost:3000
-CD into app root folder 
+Server port: localhost:3000
 
-# Install dependencies
+# CD into app root folder 
+*Install dependencies*
+
 npm install
-# Serve with hot reload at localhost:8080
+
 npm run dev
 
 # Build for production with minification

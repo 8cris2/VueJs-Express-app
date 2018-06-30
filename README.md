@@ -11,7 +11,7 @@ npm install
 npm start
 
 # Server run on localhost:3000
-In App root folder 
+CD into app root folder 
 
 # Install dependencies
 npm install

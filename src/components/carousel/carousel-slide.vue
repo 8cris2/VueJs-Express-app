@@ -170,7 +170,6 @@
     justify-content: space-between;
     margin: 15px auto 0;
     padding: 15px;
-    /* width: 120px; */
     background-color: #efefef;
     &__btn-wrap {
       display: flex;

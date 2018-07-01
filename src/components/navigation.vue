@@ -1,7 +1,5 @@
 <template>
-
 	<div>
-	
 		<div class="u-header">
 			<div class="container">
 				<ul class="u-nav">
@@ -14,17 +12,10 @@
 						<li class="u-nav__item"> About </li>
 					</router-link>
 
-				</ul>
-              
-              <div class="u-mobile">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-              </div>
-              
+				</ul>              
 			</div>
 		</div>
-		
 	</div>
-
 </template>
 
 <script type="text/javascript">
@@ -62,7 +53,5 @@
       padding-left: 15px;
     }
   }
-
-  @media only screen and (max-width: 320px) {}
 
 </style>

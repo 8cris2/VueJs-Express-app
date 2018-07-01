@@ -7,7 +7,7 @@ const app = express()
 const bodyParser = require('body-parser') // Allow to parse json data
 const cors = require('cors') // If you want a server to be hosted on a different domain and for any client to be able to hit the server
 const morgan = require('morgan') // Print out logs
-const fs = require('fs');
+const fs = require('fs'); // file server
 const path = require('path');
 
 var jsonFile = require('./{be_creative}.json')

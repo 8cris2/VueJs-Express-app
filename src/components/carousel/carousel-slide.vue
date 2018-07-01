@@ -126,9 +126,9 @@
               this.successMessage = 'Your slide was successfully added!';
             }, 500);
           }
-          
+
           this.saveCarousel();
-          
+
         }
 
       }
@@ -229,10 +229,7 @@
     border-radius: 5px;
     color: #FFFFFF;
     background-color: lightseagreen;
-  } 
-  
-  // vuejs transition classes start
-  
+  } // vuejs transition classes start
   .fadeslide-enter-active,
   .fadeslide-leave-active {
     transition: all .5s;
@@ -255,10 +252,7 @@
 
     {
     opacity: 0;
-  } 
-  
-  // vuejs transition classes end
-  
+  } // vuejs transition classes end
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .o-carousel {
       &__text {

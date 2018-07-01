@@ -2,7 +2,7 @@
 
   <div>
 
-    <form id="slide_uploader" method="POST" @submit.prevent="handleSubmitMethod">
+    <form id="slide_uploader" method="POST" @submit.prevent.stop="handleSubmitMethod">
       
       <div class="u-carousel-component">
         
@@ -121,15 +121,18 @@
 
         } else {
 
+          this.saveCarousel();
+
           if (this.slideData.push(this.item.slideText)) {
             setInterval(() => {
               this.successMessage = 'Your slide was successfully added!';
-            }, 500);
+            }, 200);
           }
-
-          this.saveCarousel();
-
+          
         }
+
+        // this.item.slideText = '';
+        e.target.reset();
 
       }
     },
@@ -201,6 +204,7 @@
       font-size: 12vw;
       text-align: center;
       cursor: -webkit-grab;
+      @include text-no-wrap;
     }
   }
 

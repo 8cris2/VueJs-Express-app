@@ -19,11 +19,11 @@ app.use(bodyParser.urlencoded({
 })); // support encoded bodies
 app.use(cors())
 
-app.get('/', (request, response) => { //endpoint
-  response.json(jsonFile) // JSON.stringify
+app.get('/', (request, response) => {
+  response.json(jsonFile) 
 })
 
-app.post('/', (request, response) => { //endpoint
+app.post('/', (request, response) => {
 
   fs.readFile(path.resolve(__dirname, './{be_creative}.json'), function (err, data) {
     if (err) {
@@ -40,7 +40,7 @@ app.post('/', (request, response) => { //endpoint
             error: 'could not save new carousel data'
           })
         } else {
-          response.status(201).json({}) // your original line!
+          response.status(201).json({})
         }
       })
     }
